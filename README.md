@@ -32,6 +32,10 @@ A visually-rich and interactive pendulum simulation built using p5.js. This simu
 - A modern browser
 - [p5.js](https://p5js.org/) library
 
+### Running Online
+
+![click here!](https://editor.p5js.org/Usman_Ali/full/2SJMPfWxD)
+
 ### Running Locally
 
 1. Clone the repository:
