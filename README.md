@@ -19,6 +19,27 @@ A visually-rich and interactive pendulum simulation built using p5.js. This simu
   - Reference arc for angular displacement
   - Color-coded arrows and labels
 
+## 🧠 Interactivity
+
+This simulation provides rich and intuitive interactivity features to help users explore the dynamics of a pendulum:
+
+### 🖱️ Mouse Controls
+- **Drag the bob**: Click and drag the pendulum bob to a new position. When released, it will begin oscillating from that position.
+- **Mouse-over feedback**: Hovering over elements like the pendulum string or bob provides smooth transitions and accurate positioning.
+
+### 🎯 Real-Time Physics Feedback
+- **Live Arrow Updates**:
+  - **Weight vector** (blue): Constant downward gravitational force acting on the bob.
+  - **Tangential velocity** (yellow): Always perpendicular to the string and changes direction during oscillation.
+  - **Cosine component of gravity** (orange): Points along the string; changes magnitude based on current angle.
+- **Dashed Construction Lines**:
+  - **Central Line**: Vertical dashed line helps visualize angular deviation.
+  - **Top Reference Line**: Helps maintain context for horizontal displacement and maximum amplitude.
+
+### 🔁 Motion Control & Physics
+- **Friction factor**: The simulation models energy loss using a customizable damping factor.
+- **Real-time equations**: Angular velocity and acceleration are computed on every frame using realistic physics.
+
 ## 📁 File Structure
 
 - `sketch.js` – Main p5.js setup and draw loop.
