@@ -34,7 +34,7 @@ A visually-rich and interactive pendulum simulation built using p5.js. This simu
 
 ### Running Online
 
-![click here!](https://editor.p5js.org/Usman_Ali/full/2SJMPfWxD)
+[click here!](https://editor.p5js.org/Usman_Ali/full/2SJMPfWxD)
 
 ### Running Locally
 
