@@ -29,9 +29,9 @@ This simulation provides rich and intuitive interactivity features to help users
 
 ### 🎯 Real-Time Physics Feedback
 - **Live Arrow Updates**:
-  - **Weight vector** (blue): Constant downward gravitational force acting on the bob.
-  - **Tangential velocity** (yellow): Always perpendicular to the string and changes direction during oscillation.
-  - **Cosine component of gravity** (orange): Points along the string; changes magnitude based on current angle.
+  - **Weight vector** (🔵): Constant downward gravitational force acting on the bob.
+  - **Tangential velocity** (🟡): Always perpendicular to the string and changes direction during oscillation.
+  - **Cosine component of gravity** (🔴): Points along the string; changes magnitude based on current angle.
 - **Dashed Construction Lines**:
   - **Central Line**: Vertical dashed line helps visualize angular deviation.
   - **Top Reference Line**: Helps maintain context for horizontal displacement and maximum amplitude.
@@ -53,11 +53,10 @@ This simulation provides rich and intuitive interactivity features to help users
 
 ### Prerequisites
 - A modern browser
-- [p5.js](https://p5js.org/) library
 
 ### Running Locally
 
-1. Clone the repository:
+Clone the repository:
 
    ```bash
    git clone https://github.com/UsmanAli404/Pendulum.git
