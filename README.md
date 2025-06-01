@@ -19,6 +19,7 @@ A visually-rich and interactive pendulum simulation built using p5.js. This simu
   - Reference arc for angular displacement
   - Color-coded arrows and labels
 
+
 ## 🧠 Interactivity
 
 This simulation provides rich and intuitive interactivity features to help users explore the dynamics of a pendulum:
@@ -40,6 +41,7 @@ This simulation provides rich and intuitive interactivity features to help users
 - **Friction factor**: The simulation models energy loss using a customizable damping factor.
 - **Real-time equations**: Angular velocity and acceleration are computed on every frame using realistic physics.
 
+
 ## 📁 File Structure
 
 - `sketch.js` – Main p5.js setup and draw loop.
@@ -48,6 +50,7 @@ This simulation provides rich and intuitive interactivity features to help users
   - `DashedLine`
   - `ArrowLine`
   - Utility functions for arrow vector calculations
+
 
 ## 🚀 Getting Started
 
